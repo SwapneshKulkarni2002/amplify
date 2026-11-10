@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Amplify",
+    "slug": "amplify-campaigns",
+    "scheme": "amplify",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F6F7F2",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.humanityfounders.amplify"
+    },
+    "android": {
+      "package": "com.humanityfounders.amplify"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Amplify uses your selected photos as campaign or advertising visuals.",
+          "cameraPermission": false,
+          "microphonePermission": false
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1a3d2590-ad80-4d1d-8035-0338a7602f87"
+      }
+    },
+    "owner": "swapnesh-kulkarni"
+  }
+}
